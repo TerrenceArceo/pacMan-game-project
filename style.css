@@ -1,0 +1,94 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px;
+    height: 420px;
+    border: solid black;
+}
+
+#grid div {
+    width: 15px;
+    height: 15px;
+/*    background-color: blue;*/
+}
+
+/*
+//28 * 28 = 784
+  // 0 - pac-dots
+  // 1 - wall
+  // 2 - ghost-lair
+  // 3 - power-pellet
+  // 4 - empty
+  // 5 - tree leaves
+  // 6 - tree body
+*/
+
+
+
+
+
+.pac-dots {
+    background-color: darkgreen;
+    border: 5px solid #fff;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.wall {
+    background-color: saddlebrown;
+}
+
+.tree-leaves {
+    background-color: limegreen;
+    border-radius: 50%;
+}
+
+.power-pellet {
+    background-color: #61aee6;
+    border-radius: 50%;
+}
+
+.pacman {
+    background-color: #b9b94e;
+    border-radius: 50%;
+    border: none;
+}
+
+.lorenzo {
+    background-color: pink;
+    border: none;
+    border-radius: 0;
+}
+
+.jon {
+    background-color: red;
+    border: none;
+    border-radius: 0;
+}
+
+.tin {
+    background-color: blue;
+    border: none;
+    border-radius: 0;
+}
+
+.gwen {
+    background-color: mediumpurple;
+    border: none;
+    border-radius: 0;
+}
+
+.scared-ghost {
+    background-color: aqua;
+}

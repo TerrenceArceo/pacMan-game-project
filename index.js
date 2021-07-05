@@ -294,7 +294,7 @@ function gameOver() {
 }
 
 function winner() {
-    if (score === 400) {
+    if (score === 400 || score > 400) {
         ghosts.forEach(ghost => clearInterval(ghost.timerId))
         
         document.removeEventListener('keyup', control)

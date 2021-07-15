@@ -20,3 +20,6 @@ this solves the problem and it now depends on pacman's movement weather the ghos
 
 ## How can make this game even better tho?
 - If I can probably make blinky (one of the ghosts) chase pacman around the map. I still haven't figure that out yet.
+
+
+https://scrimba.com/
